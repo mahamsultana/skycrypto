@@ -6,6 +6,7 @@ import About from './pages/about';
 import Market from './pages/market';
 import ContactUs from './pages/contactus';
 import LoginForm from './components/login';
+import Register from './components/register';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/about' element={<About/>}></Route>
         <Route path='/market' element={<Market/>}></Route>
         <Route path='/login' element={<LoginForm/>}></Route>
+        <Route path='/register' element={<Register/>}></Route>
          <Route path='/contact' element={<ContactUs/>}></Route>
       </Routes>
     </BrowserRouter>

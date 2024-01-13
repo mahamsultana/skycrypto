@@ -12,8 +12,8 @@ font-size: 23px;
 }
 #btn-submit{
     margin-right: 30px !important;
-    border-color: white !important;
-    color: #ffc107 !important;
+    color: white !important;
+    background-color: green;
 }
 
 #btn-submit:hover{
@@ -24,13 +24,14 @@ font-size: 23px;
 
 .form-control{
     width: 400px !important;
+    margin-top: 9px;
 }
 
 .btn-warning {
     color: #212529;
-    background-color:transparent;
+    background-color:#ffc107;
     border-color: white;
-    color: #ffc107 !important;
+    color: white !important;
 }
 
 .btn-warning:hover{

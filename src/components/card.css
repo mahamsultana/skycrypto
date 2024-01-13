@@ -50,3 +50,41 @@
     text-align: center;
 }
 
+@media (max-width: 767px) {
+    .crypto-card {
+        width: 100%;
+        max-width: none;
+    }
+
+    .card-image {
+        height: auto;
+        width: 100px;
+    }
+
+    .card-title {
+        font-size: 15px;
+    }
+
+    .crypto-card:hover {
+        transform: scale(1.05);
+    }
+}
+
+
+@media (max-width: 767px) {
+    .crypto-card {
+        width: 100%;
+        max-width: none;
+        margin: 0 10px;
+    }
+
+    .card-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .card-title {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+}
